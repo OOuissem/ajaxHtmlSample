@@ -1,0 +1,33 @@
+<doctype html>
+    
+    <html>
+        <head>
+            <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="  crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">        
+            <link rel="stylesheet" href="monStyle.css?=time()">  <!-- ?=time() permet d'appliquer toujours le contenu du fichier CSS et non pas la copie du cache -->      
+            <script src="monScript.js"></script>
+        </head>
+    </html>
+    <body onload="testAjax()">
+        <header>
+            <nav class="navTop">
+                <div id="ajaxHeadContent"></div>
+            </nav>            
+        </header>
+                  
+        <div  class = "container-fluid">
+            <div class="row">
+                <div class="col-md-4">            
+                </div>
+                <div id="divRefill" class="alert alert-secondary col-xs-4 col-md-4">
+                        <div id="ajaxMainContent"></div>                        
+                </div>
+                <div class="col-md-4">            
+                </div>
+            </div>
+        </div>
+        <footer>        
+        </footer>        
+    </body>
+    </doctype>
